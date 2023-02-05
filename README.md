@@ -1,11 +1,11 @@
-ADMIN UI- GEEKTRUST FRONTEND CHALLANGE
+ADMIN Dashboard
 
-Objective- An application used to display users detail, search the user on all property- name, email, role. Can delete, edit single or multiple users. 
+Objective- An application used to display users detail,can delete, edit and create new user. 
 
 Reflection
-This is a Geektrust Frontend Challange- Admin UI. I have used React Js technology to implement the project. To get the API response I have used React state & hooks. Users are displayed in Table (Table material ui is used) with their name, email, role and actions (delete or edit). There is search bar to filter the user on property name, email and role and due to pagination implemented it will automatically display the filtered users and will reduce the number of pages based on filtered user data. Clicking on the page number will display the users for that particular page. 
+I have used React Js technology to implement the project. To get the API response I have used React state & hooks. Users are displayed in Table (Table material ui is used) with their firstName,lastName,phoneNumber, age and actions (delete or edit). 
 
-One can delete or edit the user detail in place and can also delete multiple rows by selecting the checkbox and clicking on delete selected button at bottom. All the users can be selected by clicking on the top checkbox and this will ensure that to select the users present on current page instead all the users. The selected users are displayed with grayish background. 
+One can delete or edit the user detail in place and can also create new user detail. 
 
 To edit the detail of user, click on edit icon, it will open a dialogue box in which you can fill out the details , this is implemented in editUser. 
 
